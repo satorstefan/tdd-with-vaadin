@@ -5,6 +5,7 @@ import com.example.application.security.AuthenticatedUser;
 import com.example.application.views.addressform.AddressFormView;
 import com.example.application.views.gridwithfilters.GridwithFiltersView;
 import com.example.application.views.helloworld.HelloWorldView;
+import com.example.application.views.karibu.TabsView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.avatar.Avatar;
@@ -161,6 +162,8 @@ public class MainLayout extends AppLayout {
                 new MenuItemInfo("Grid with Filters", LineAwesomeIcon.FILTER_SOLID.create(), GridwithFiltersView.class), //
 
                 new MenuItemInfo("Address Form", LineAwesomeIcon.MAP_MARKER_SOLID.create(), AddressFormView.class), //
+                
+                new MenuItemInfo("Tabs", LineAwesomeIcon.MAP_MARKER_SOLID.create(), TabsView.class), //
 
         };
     }
